@@ -13,7 +13,7 @@ min_payload = spacex_df['Payload Mass (kg)'].min()
 
 # Create a dash application
 app = dash.Dash(__name__)
-
+server=app.server
 # Create an app layout
 app.layout = html.Div(
     children=[
